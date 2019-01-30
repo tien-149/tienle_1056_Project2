@@ -30,13 +30,16 @@ h2
 {
 	font-family: 'literata_bookbold', Arial;
 	padding: 10px;
+	letter-spacing:1.5px;
 }
 h1
 {
 	font-family: 'Crimson Text', serif;
+	color: #1c2248;
 	font-size: 36px;
 	text-align: center;
 	margin: 20px;
+	font-weight: bold;
 
 }
 
@@ -84,6 +87,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	text-align: right;
 	line-height: 25px;
 	font-size: 20px;
+	font-weight: lighter;
 }
 .intro2 p:first-letter
 {
@@ -153,7 +157,8 @@ ul li
 {
 	margin: 2px;
 	padding: 10px;
-	font-family: Biko;
+	font-family: 'Fira Sans', sans-serif;
+	line-height: 19px;
 }
 
 ul li:nth-child(odd)
